@@ -1,8 +1,13 @@
 class script(object):
-    START_TXT = """<b><blockquote>ʜᴇʏ {}, {}</blockquote>\n ɪ ᴀᴍ ᴛʜᴇ ᴍᴏsᴛ ᴘᴏᴡᴇʀғᴜʟ ғɪʟᴛᴇʀ ʙᴏᴛ ᴡɪᴛʜ ᴘʀᴇᴍɪᴜᴍ ғᴇᴀᴛᴜʀᴇs, ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴀs ᴀ ᴀᴅᴍɪɴ ɪɴ ɢʀᴏᴜᴘ ᴀɴᴅ sᴇᴇ ᴛʜᴇ ᴍᴀɢɪᴄ. ɪ ᴀᴍ ᴘʀᴏᴠɪᴅᴇᴅ ᴍᴏᴠɪᴇs/sᴇʀɪᴇs ʙʏ sᴇᴀʀᴄʜɪɴɢ ᴡɪᴛʜ ᴄᴏʀʀᴇᴄᴛ sᴘᴇʟʟɪɴɢs.🕊️
-📊 ғᴏʀ ᴘʀᴏᴍᴏᴛɪᴏɴ ᴄᴏɴᴛᴀᴄᴛ ᴡɪᴛʜ <a href='https://t.me/ZAYOTA'>𝐀𝐃𝐌𝐈𝐍</a>✨</b>"""
+    START_TXT = """<b><blockquote>ʜᴇʏ {}, {}</blockquote>
+    
+    ɪ ᴀᴍ ᴛʜᴇ ᴍᴏsᴛ ᴘᴏᴡᴇʀғᴜʟ ғɪʟᴛᴇʀ ʙᴏᴛ🤖 ᴡɪᴛʜ ᴘʀᴇᴍɪᴜᴍ ғᴇᴀᴛᴜʀᴇs🎉, ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴀs ᴀ ᴀᴅᴍɪɴ ɪɴ ɢʀᴏᴜᴘ ᴀɴᴅ sᴇᴇ ᴛʜᴇ ᴍᴀɢɪᴄ🪄. ɪ ᴀᴍ ᴘʀᴏᴠɪᴅᴇᴅ ᴍᴏᴠɪᴇs/sᴇʀɪᴇs ʙʏ sᴇᴀʀᴄʜɪɴɢ ᴡɪᴛʜ ᴄᴏʀʀᴇᴄᴛ sᴘᴇʟʟɪɴɢs🎬.
+    
+    📊 ғᴏʀ ᴘʀᴏᴍᴏᴛɪᴏɴ ᴄᴏɴᴛᴀᴄᴛ ᴡɪᴛʜ <a href='https://t.me/ZAYOTA'>𝐀𝐃𝐌𝐈𝐍</a>✨</b>"""
 
-    GSTART_TXT = """<b><blockquote>ʜᴇʏ {}👋</blockquote>\n ɪ ᴀᴍ ᴛʜᴇ ᴍᴏsᴛ ᴘᴏᴡᴇʀғᴜʟ ғɪʟᴛᴇʀ ʙᴏᴛ ᴡɪᴛʜ ᴘʀᴇᴍɪᴜᴍ ғᴇᴀᴛᴜʀᴇs, ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴀs ᴀ ᴀᴅᴍɪɴ ɪɴ ɢʀᴏᴜᴘ ᴀɴᴅ sᴇᴇ ᴛʜᴇ ᴍᴀɢɪᴄ. ɪ ᴀᴍ ᴘʀᴏᴠɪᴅᴇᴅ ᴍᴏᴠɪᴇs/sᴇʀɪᴇs ʙʏ sᴇᴀʀᴄʜɪɴɢ ᴡɪᴛʜ ᴄᴏʀʀᴇᴄᴛ sᴘᴇʟʟɪɴɢs.</b>"""
+    GSTART_TXT = """<b><blockquote>ʜᴇʏ {}👋</blockquote>
+    
+    ɪ ᴀᴍ ᴛʜᴇ ᴍᴏsᴛ ᴘᴏᴡᴇʀғᴜʟ ғɪʟᴛᴇʀ ʙᴏᴛ ᴡɪᴛʜ ᴘʀᴇᴍɪᴜᴍ ғᴇᴀᴛᴜʀᴇs, ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴀs ᴀ ᴀᴅᴍɪɴ ɪɴ ɢʀᴏᴜᴘ ᴀɴᴅ sᴇᴇ ᴛʜᴇ ᴍᴀɢɪᴄ. ɪ ᴀᴍ ᴘʀᴏᴠɪᴅᴇᴅ ᴍᴏᴠɪᴇs/sᴇʀɪᴇs ʙʏ sᴇᴀʀᴄʜɪɴɢ ᴡɪᴛʜ ᴄᴏʀʀᴇᴄᴛ sᴘᴇʟʟɪɴɢs.</b>"""
     
     HELP_TXT = """<b><blockquote>ʜᴇʏ {}👋</blockquote>
     
@@ -107,7 +112,10 @@ Nᴀᴍᴇ - {}
 
     TOP_ALRT_MSG = """ꜱᴇᴀʀᴄʜɪɴɢ ꜰᴏʀ ǫᴜᴇʀʏ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀꜱᴇ..."""
 
-    MELCOW_ENG = """<b><blockquote>👋 ʜᴇʏ {},✨ ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴏᴜʀ {}</blockquote>\n🪄 ʜᴇʀᴇ ʏᴏᴜ ᴄᴀɴ ꜱᴇᴀʀᴄʜ ʏᴏᴜʀ ꜰᴀᴠᴏᴜʀɪᴛᴇ ᴍᴏᴠɪᴇꜱ ᴏʀ ꜱᴇʀɪᴇꜱ ʙʏ ᴊᴜꜱᴛ ᴛʏᴘɪɴɢ ɪᴛ'ꜱ ɴᴀᴍᴇ 🕵🏻‍♀️\n\n⚠️ ɪꜰ ʏᴏᴜ'ʀᴇ ʜᴀᴠɪɴɢ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ʀᴇɢᴀʀᴅɪɴɢ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴏʀ ꜱᴏᴍᴇᴛʜɪɴɢ ᴇʟꜱᴇ ᴛʜᴇɴ ᴍᴇꜱꜱᴀɢᴇ ʜᴇʀᴇ 👇</b>"""
+    MELCOW_ENG = """<b><blockquote>👋 ʜᴇʏ {},✨ ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴏᴜʀ {}</blockquote>
+    
+    🪄 ʜᴇʀᴇ ʏᴏᴜ ᴄᴀɴ ꜱᴇᴀʀᴄʜ ʏᴏᴜʀ ꜰᴀᴠᴏᴜʀɪᴛᴇ ᴍᴏᴠɪᴇꜱ ᴏʀ ꜱᴇʀɪᴇꜱ ʙʏ ᴊᴜꜱᴛ ᴛʏᴘɪɴɢ ɪᴛ'ꜱ ɴᴀᴍᴇ 🕵🏻‍♀️
+    ⚠️ ɪꜰ ʏᴏᴜ'ʀᴇ ʜᴀᴠɪɴɢ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ʀᴇɢᴀʀᴅɪɴɢ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴏʀ ꜱᴏᴍᴇᴛʜɪɴɢ ᴇʟꜱᴇ ᴛʜᴇɴ ᴍᴇꜱꜱᴀɢᴇ ʜᴇʀᴇ 👇</b>"""
     
     DISCLAIMER_TXT = """
 <b><blockquote>ᴛʜɪꜱ ɪꜱ ᴀɴ ᴏᴘᴇɴ ꜱᴏᴜʀᴄᴇ ᴘʀᴏᴊᴇᴄᴛ,📈
@@ -192,9 +200,9 @@ Nᴀᴍᴇ - {}
 <b>ʏᴏᴜ ᴄᴀɴ ᴅᴏɴᴀᴛᴇ ᴀɴʏ ᴀᴍᴏᴜɴᴛ ʏᴏᴜ ʜᴀᴠᴇ 😗<b>
 <b>🎉 sᴇʟᴇᴄᴛ ʏᴏᴜʀ ᴅᴏɴᴀᴛɪᴏɴ ᴍᴇᴛʜᴏᴅ 👇</b>
 
-➢ QR Cᴏᴅᴇ : <a href='{}'>𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞 𝐓𝐨 𝐒𝐜𝐚𝐧</a>
+<blockquote>➢ ǫʀ ᴄᴏᴅᴇ : <a href='{}'>𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞 𝐓𝐨 𝐒𝐜𝐚𝐧</a>
 
-➢ Uᴘɪ Iᴅ : <code>{}</code>
+➢ ᴜᴘɪ ɪᴅ : <code>{}</code></blockquote>
 
 📱 ᴍᴜsᴛ sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ ᴀғᴛᴇʀ ᴅᴏɴᴀᴛᴇ..💰</b>"""
     
@@ -272,7 +280,7 @@ Nᴀᴍᴇ : {}
 
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-    CAPTION = """<b><a href="https://t.me/Deendayal_dhakad">{file_name}</a></b>\n\n<b>⚜️ Powered By : <a href=https://t.me/Deendayal_dhakad>[Deendayal_Dhakad]</a></b>"""
+    CAPTION = """<b><a href="https://t.me/+UPN7n0ItgKI3YWJl">{file_name}</a></b>\n\n<b>❤️ Powered By : <a href=https://t.me/ZoneFlixTv>[𝐙𝐨𝐧𝐞𝐅𝐥𝐢𝐱𝐓𝐯]</a></b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>🏷 Title</b>: <a href={url}>{title}</a>
@@ -286,7 +294,8 @@ Requested by : {message.from_user.mention}</b>"""
     
 
     RESTART_TXT = """
-<b>{} Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ !
+<b>{} 
+Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ 💚🍁
 
 📅 Dᴀᴛᴇ : <code>{}</code>
 ⏰ Tɪᴍᴇ : <code>{}</code>
@@ -447,32 +456,32 @@ BOT WORKING PROPERLY ✅"""
 
     PREPLANS_TXT = """<b>👋 ʜᴇʏ {},
     
-🌍 <u>Available Plans</u> 🌍
+📋 <u>ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʟᴀɴs</u> 📋
 
-<blockquote>💠 10 Rupees 👉 7 Days
+<blockquote>💠 10 ʀᴜᴘᴇᴇs ➜ 7 ᴅᴀʏs
 
-💠 20 Rupees 👉 15 Days
+💠 20 ʀᴜᴘᴇᴇs ➜ 15 ᴅᴀʏs
 
-💠 40 Rupees 👉 30 Days
+💠 40 ʀᴜᴘᴇᴇs ➜ 30 ᴅᴀʏs
 
-💠 55 Rupees 👉 45 Days
+💠 55 ʀᴜᴘᴇᴇs ➜ 45 ᴅᴀʏs
 
-💠 75 Rupees 👉 60 Days</blockquote>
+💠 75 ʀᴜᴘᴇᴇs ➜ 60 ᴅᴀʏs</blockquote>
 
-😌 Price Will Be Negotiable For 30 Days Plan And Over, Contact With <a href='https://t.me/ZAYOTA'>𝐎𝐖𝐍𝐄𝐑</a> ✨
-🏧 Select Your Payment Method Below 👇
+😌 ᴘʀɪᴄᴇ ᴡɪʟʟ ʙᴇ ɴᴇɢᴏᴛɪᴀʙʟᴇ ғᴏʀ <blockquote>𝟹𝟶 ᴅᴀʏs ᴘʟᴀɴ ᴀɴᴅ ᴀʙᴏᴠᴇ,</blockquote> ᴄᴏɴᴛᴀᴄᴛ ᴡɪᴛʜ <a href='https://t.me/ZAYOTA'>𝐎𝐖𝐍𝐄𝐑</a>✨
+🏧 sᴇʟᴇᴄᴛ ʏᴏᴜʀ ᴘᴀʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅ ʙᴇʟᴏᴡ ⤵️
 
-𝑼𝑷𝑰 𝑰𝑫 👉 <code>{}</code>
+<blockquote>◉ ᴜᴘɪ ɪᴅ : <code>{}</code>
 
-𝑸𝑹 𝒄𝒐𝒅𝒆 👉 <a href='{}'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ꜱᴄᴀɴ</a> 
+◉ ǫʀ ᴄᴏᴅᴇ : <a href='{}'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ꜱᴄᴀɴ</a></blockquote>
 
-💸 Pay Amount According To Your Plan & Enjoy Premium Membership 🥳
-📲 Must Send Screenshot After Payment....📌
+💸 ᴘᴀʏ ᴀᴍᴏᴜɴᴛ ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ʏᴏᴜʀ ᴘʟᴀɴ & ᴇɴᴊᴏʏ ᴘʀᴇᴍɪᴜᴍ ᴍᴇᴍʙᴇʀsʜɪᴘ 🥳
+📲 ᴍᴜsᴛ sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ ᴀғᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ...📌
 
-🪔 Check Your Active Plan: /myplan
-💌 After Sending A Screenshot Please Give Us Some Time To Add You In The Premium List.</b>"""    
+🪔 ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ: /myplan
+💌 ᴀғᴛᴇʀ sᴇɴᴅɪɴɢ ᴀ sᴄʀᴇᴇɴsʜᴏᴛ ᴘʟᴇᴀsᴇ ɢɪᴠᴇ ᴜs sᴏᴍᴇ ᴛɪᴍᴇ ᴛᴏ ᴀᴅᴅ ʏᴏᴜ ɪɴ ᴛʜᴇ ᴘʀᴇᴍɪᴜᴍ ʟɪsᴛ.</b>"""    
 
-    SOURCE_TXT ="""<b>ՏOᑌᖇᑕᗴ ᑕOᗪᗴ : 👇 </b>
+    SOURCE_TXT ="""<b>❕ ՏOᑌᖇᑕᗴ ᑕOᗪᗴ ❕</b>
 
  ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ʜᴇʀᴇ ◉› :<a href=https://t.me/ZoneFlixTv>𝐙𝐨𝐧𝐞𝐅𝐥𝐢𝐱𝐓𝐯</a>"""
 
