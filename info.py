@@ -30,10 +30,10 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 PICS = (environ.get('PICS', 'https://envs.sh/6PD.jpg')).split()  # Sample pic
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/e20b5fdaf217252964202.jpg")
-MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/60e8a622b14796e4448ce.mp4")
+MELCOW_VID = environ.get("MELCOW_VID", "https://envs.sh/64Y.mp4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/13702ae26fb05df52667c.jpg")
 SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/242b7f1b52743938d81f1.jpg'))
-FSUB_PICS = (environ.get('FSUB_PICS', 'https://graph.org/file/7478ff3eac37f4329c3d8.jpg https://graph.org/file/56b5deb73f3b132e2bb73.jpg')).split()  # Fsub pic
+FSUB_PICS = (environ.get('FSUB_PICS', 'https://graph.org/file/7478ff3eac37f4329c3d8.jpg')).split()  # Fsub pic
 
 # ============================
 # Admin, Channels & Users Configuration
@@ -47,7 +47,7 @@ PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002000438745'))  # Premium log
 auth_channel = environ.get('AUTH_CHANNEL', '')  # Channel/Group ID for force sub (make sure bot is admin)
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 support_chat_id = environ.get('SUPPORT_CHAT_ID', '0')  # Support group id (make sure bot is admin)
-reqst_channel = environ.get('REQST_CHANNEL_ID', '')  # Request channel id (make sure bot is admin)
+reqst_channel = environ.get('REQST_CHANNEL_ID', '-1002000438745')  # Request channel id (make sure bot is admin)
 AUTH_CHANNEL = [int(fch) if id_pattern.search(fch) else fch for fch in environ.get('AUTH_CHANNEL', '-1001973645984 -1002257418506').split()]
 MULTI_FSUB = [int(channel_id) for channel_id in environ.get('MULTI_FSUB', '-1001973645984 -1002257418506').split() if re.match(r'^-?\d+$', channel_id)]  # Channel for force sub (make sure bot is admin)
 
@@ -184,7 +184,7 @@ else:
 # Reactions Configuration
 # ============================
 
-REACTIONS = ["❤️", "😇", "🤗", "😍", "👍", "😢", "🤡", "☃️", "🥰", "🤩", "😱", "🤣", "😘", "👏", "🎃", "😈", "🎉", "⚡️", "💋", "🤓", "😎", "🏆", "🔥", "🤯", "🌚", "🆒", "👻", "😁", "🍾", "🍌", "😴", "🥱", "🥴", "💘", "🤪", "💯", "🦄", "🍓", "🙈" "🗿", "👾"]
+REACTIONS = ["🕊️", "🐳", "🤨", "❤️", "😇", "🤗", "😍", "👍", "😢", "🤡", "☃️", "🥰", "🤩", "😱", "🤣", "😘", "👏", "🎃", "😈", "🎉", "⚡️", "💋", "🤓", "😎", "🏆", "🔥", "🤯", "🌚", "🆒", "👻", "😁", "🍾", "🍌", "😴", "🥱", "🥴", "💘", "🤪", "💯", "🦄", "🍓", "🙈" "🗿", "👾"]
 
 
 # ============================
