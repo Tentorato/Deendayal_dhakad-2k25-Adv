@@ -148,7 +148,7 @@ async def refercall(bot, query):
             InputMediaPhoto("https://graph.org/file/1a2e64aee3d4d10edd930.jpg")
         )
     await query.message.edit_text(
-        text=f'Hay Your refer link:\n\nhttps://t.me/{bot.me.username}?start=reff_{query.from_user.id}\n\nShare this link with your friends, Each time they join,  you will get 10 refferal points and after 100 points you will get 1 month premium subscription.',
+        text=f'<b>Hay Your refer link:\n\n🔗 https://t.me/{bot.me.username}?start=reff_{query.from_user.id}\n\nShare this link with your friends🤝, Each time they join, you will get 🔟 refferal points and after 100 points🏆 you will get 1️⃣ month premium subscription🎉.</b>',
         reply_markup=reply_markup,
         parse_mode=enums.ParseMode.HTML
         )
@@ -2024,7 +2024,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🍿 ᴍᴏᴠɪᴇ ɴᴏᴛɪғɪᴄᴀᴛɪᴏɴ 🍿', url=DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK),
         ],[
             InlineKeyboardButton('⇍ ʙᴀᴄᴋ ⇏', callback_data='start'),
-            InlineKeyboardButton('➤ Cᴏɴᴛᴀᴄᴛ ', url=OWNER_LNK)
+            InlineKeyboardButton('👨🏻‍✈️ Cᴏɴᴛᴀᴄᴛ 👨🏻‍✈️', url=OWNER_LNK)
         ]] 
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
